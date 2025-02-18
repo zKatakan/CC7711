@@ -1,0 +1,23 @@
+{"intents":[
+  { "tag": "despedida",
+    "patterns":["nao", "Nao", "não", "Não", "obrigado", "Obrigado"],
+    "responses": ["\nAté breve, espero ter ajudado!","\nFalou! Espero ter te ajudado!\n"]
+  },
+  { "tag": "sobre-pipe",
+    "patterns":["O que é o PIPE?", "O que é PIPE?", "O que é essa pesquisa?", "Pra que o PIPE serve?"],
+    "responses": ["\nO PIPE-FAPESP foca em apoiar a execucao de pesquisa cientifica e/ou tecnologica em micro, pequenas e medias empresas no Estado de Sao Paulo.\n"]
+  },
+  { "tag": "objetivos-pipe",
+    "patterns":["Quais são os objetivos do PIPE?", "E quais são seus objetivos?", "O que ela tem de objetivo?"],
+    "responses": ["\nSao objetivos do PIPE: \n1. Apoiar a pesquisa em ciencia e tecnologia como instrumento para promover a inovacao tecnologica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas. \n2. Incrementar a contribuicao da pesquisa para o desenvolvimento economico e social. \n3. Induzir o aumento do investimento privado em pesquisa tecnologica. \n4. Possibilitar que as empresas se associem a pesquisadores do ambiente academico em projetos de pesquisa visando a inovacao tecnologica. \n5. Contribuir para a formacao e o desenvolvimento de nucleos de desenvolvimento tecnologico nas empresas e para o emprego de pesquisadores no mercado.\n"]
+  },
+  { "tag": "politica-pipe",
+    "patterns":["Quais são as politicas do programa?", "Quais são as politicas do PIPE?", "E quais são suas politicas?"],
+    "responses": ["\nAs empresas apoiadas pelo Programa Pesquisa Inovativa em Pequenas Empresas (PIPE) detem exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigencia de compartilhamento com a Fundacao. \nA empresa, portanto, podera explorar, licenciar e proteger os resultados do projeto apoiado pela Fundacao da forma que achar mais conveniente, seguindo sua estrategia de negocio, devendo manter a FAPESP informada em relacao a propriedade intelectual para fins de acompanhamento.\n"]
+  },
+  { "tag": "o-que-eh-FAPESP",
+    "patterns":["O que é FAPESP?", "Quem é essa FAPESP?", "Qual o significado de FAPESP?"],
+    "responses": ["\nA Fundacao de Amparo a Pesquisa do Estado de Sao Paulo (FAPESP) eh uma das principais agencias de fomento a pesquisa cientifica e tecnologica do pais. \nCom um orcamento anual correspondente a 1% da receita tributaria estadual e autonomia garantida por lei, a FAPESP esta ligada a Secretaria de Ciencia, Tecnologia e Inovacao do Estado de Sao Paulo.\n"]
+  }
+]
+}
